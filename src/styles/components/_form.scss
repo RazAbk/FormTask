@@ -1,0 +1,58 @@
+.form{
+    width: 25rem;
+    height: fit-content;
+    background-color: #fff;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .form-cmp{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-height: 90vh;
+        padding: 1.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .names-fields{
+            display: flex;
+            gap: 1rem;
+        }
+
+        .form-radio-btns{
+            span{
+                font-size: 0.8rem;
+            }
+        }
+        
+        .action-btns{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            button{
+                margin: auto;
+
+            }
+            .clear-btn{
+                background-color: rgb(42, 56, 184);
+            }
+            .send-btn{
+                background-color: rgb(206, 128, 38);
+            }
+        }
+
+        .inner-checkboxes{
+            padding-left: 0.5rem;
+        }
+    }
+
+    h2,h3{
+        font-weight: 600;
+    }
+}
